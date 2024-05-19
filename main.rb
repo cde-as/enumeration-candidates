@@ -8,8 +8,7 @@ require_relative 'filters'
 ## Your test code can go here
 
 ##pp @candidates.select { |candidate| experienced?(candidate) }
-
 ##pp find(10)  
 ## pp find (100)
-
-pp qualified_candidates(@candidates)
+#pp qualified_candidates(@candidates)
+pp ordered_by_qualifications(@candidates)
