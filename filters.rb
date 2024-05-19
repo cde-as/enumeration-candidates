@@ -6,7 +6,7 @@ def find(id)
   end
   
   def experienced?(candidate)
-    # Your code Here
+    candidate[:years_of_experience] >= 2
   end
   
   def qualified_candidates(candidates)
