@@ -7,4 +7,7 @@ require_relative 'filters'
 
 ## Your test code can go here
 
-pp @candidates.select { |candidate| experienced?(candidate) }
+##pp @candidates.select { |candidate| experienced?(candidate) }
+
+pp find(10)  
+pp find (100)

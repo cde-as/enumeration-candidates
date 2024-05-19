@@ -2,7 +2,7 @@
 # This way, we keep these methods separated from other potential parts of the program
 
 def find(id)
-    # Your code Here
+    @candidates.find { |candidate| candidate[:id] == id }
   end
   
   def experienced?(candidate)
