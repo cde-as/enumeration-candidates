@@ -9,5 +9,7 @@ require_relative 'filters'
 
 ##pp @candidates.select { |candidate| experienced?(candidate) }
 
-pp find(10)  
-pp find (100)
+##pp find(10)  
+## pp find (100)
+
+pp qualified_candidates(@candidates)
